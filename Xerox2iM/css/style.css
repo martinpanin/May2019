@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-Light.ttf"),
+         url("fonts/Raleway-Thin.ttf");
+}
+#header {
+    text-shadow: -0.1x 0 white, 0 0.1px white, 0.1px 0 white, 0 -0.1px white;
+}
+h1 {
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: crimson;
+    text-align: center;
+}
+h2 {
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: firebrick;
+    text-align: center;
+}
+h3 {
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: lightcoral;
+    text-align: center;
+}
+p {
+    font-family: 'Raleway';
+    font-weight: normal;
+    color: whitesmoke;
+}
+body {
+    background-image: url("images/infected.jpg");
+    background-color: black;
+    background-position: bottom;
+}
+#band {
+    width: 25%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.link {
+    text-align: center; 
+    top: 50%;
+    color: whitesmoke;
+}
+#thecontainer {
+    width: 100%;
+    text-align: center;
+}
+#onleft {
+    float: left;
+    width: 33%;
+}
+#oncenter {
+    display: inline-block;
+    margin: 0 auto;
+    width: 33%;
+}
+#onright {
+    float:right;
+    width: 33%;
+}
+.navbar {
+    background-color: indigo;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.navbar a.btn {
+    background-color: none;
+    color: white
+}

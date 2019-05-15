@@ -1,0 +1,119 @@
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: white;
+}
+h1,h2 {
+    font-family: 'Indie Flower', cursive;
+}
+
+/* Меню и верхняя полоска */
+header{
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    box-shadow: #00000021 0 2px 3px 0;
+}
+
+.logo{
+    flex: 1;
+    padding: 10px;
+}
+
+nav {
+    flex: 3;
+    max-width: 100px;
+    padding: 10px;
+}
+
+.logo img {
+    width: 70px;
+
+}
+
+/* Main */
+main {
+    width: 100%;
+    display: flex;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+/* Sidebar */
+aside {
+    flex: 1;
+    max-width: 200px;
+    margin: 0 10px 0 20px;
+    text-align: center;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    color: rgba(51, 51, 51, 0.9);
+}
+
+.avatar img {
+    max-width: 150px;
+    border-radius: 50px;
+    transition: 0.5s all;
+}
+.avatar img:hover {
+    opacity: 0.6;
+}
+
+.js {
+    color: white;
+    padding: 3px;
+    background: darkgreen;
+    text-transform: uppercase;
+}
+
+.html {
+    color: white;
+    padding: 3px;
+    background: #ea4f00;
+    text-transform: uppercase;
+}
+
+/* Article */
+article{
+    flex:3;
+    margin: 0 20px 0 10px;
+
+}
+
+/* Footer */
+footer {
+    color: #313131;
+    text-align: center;
+    padding: 20px;
+}
+
+.paper{
+  border-radius: 5px;
+  box-shadow: #0000001a 1px 2px 3px 2px;
+  background: white;
+  padding: 10px;
+}
+
+.penis {
+  background-image: url("https://media.tenor.com/images/ce2f57e8fde6adc08f7932c5e2f7ac91/tenor.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: default;
+}
+
+.invert { filter: invert(100%);}
