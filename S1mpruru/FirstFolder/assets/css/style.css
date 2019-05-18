@@ -1,5 +1,5 @@
 html {
-    background-image: url("../img/borderlands2.jpg");
+    background-image: url("../img/Borderlands2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -32,6 +32,8 @@ nav{
     top: 0;
     left: 0;
     width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
 }
 
 .nav li{
