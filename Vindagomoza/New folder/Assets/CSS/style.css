@@ -1,0 +1,70 @@
+                body {
+                    background-image: url(http://getwallpapers.com/wallpaper/full/b/e/f/44995.jpg);
+                    margin: 0;
+                    padding: 10px;
+                    border: 2px solid violet;
+                    margin:0px;
+                    margin-top: 50px;                    
+                }
+                h1{
+                    color:green;
+                    text-align:center;
+                }
+                h2 {
+                    color:black;
+                    text-align:center;
+                    background:grey;
+                    }
+                section{
+                    margin: 40px;
+                    padding: 10px;
+                    background: navy;
+                }
+                .winners{
+                    background:salmon;
+
+                }
+                .others{
+                    background: lightgreen;
+                    color:black
+                }
+                #gold{
+                    background: gold;
+
+                }
+                #silver{
+                    background: silver;
+                    color:black
+                }
+                #bronze{
+                    background: brown;
+                    color:black
+
+                }
+                nav{
+                    position: fixed;
+                    text-align:center;
+                    top:0;
+                    left:0;
+                    background: darkgrey;
+                    width:100%;
+                }
+                .nav li{
+                    display: inline;
+                    background:rgb(0, 150, 7);
+                    margin-left: 3px;
+                    margin-right: 3px;
+                    padding: 10px;
+                    transition: 0.5s;
+                }
+                .nav li:hover{
+                    background:lightskyblue
+                }
+                .nav li:hover a{
+                    color:rebeccapurple
+                }
+                .nav li a{
+
+                    color: rgb(255, 1, 1);
+                    text-decoration: none;
+                }
