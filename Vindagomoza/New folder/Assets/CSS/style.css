@@ -1,70 +1,95 @@
                 body {
-                    background-image: url(http://getwallpapers.com/wallpaper/full/b/e/f/44995.jpg);
-                    margin: 0;
-                    padding: 10px;
-                    border: 2px solid violet;
-                    margin:0px;
-                    margin-top: 50px;                    
+                    background-color: Black;
+                    background-image: url(/Vindagomoza/New\ folder/Assets/IMG/MENU.jpg);
+                    background-position: center;
+                    background-repeat: repeat-y;
+                    background-size: 60%;
+                    padding-top: 0px;
+                    padding-right: 0px;
+                    padding-bottom: 0px;
+                    padding-left: 0px;                    
                 }
                 h1{
-                    color:green;
+                    color:#90c040;
                     text-align:center;
+                    margin-top: 55px;
                 }
                 h2 {
                     color:black;
                     text-align:center;
-                    background:grey;
+                    background:transparent;
+                    }
+                .content{
+                    background-position: center;
+                    background-image: url(/Vindagomoza/New\ folder/Assets/IMG/image.png);
+                    background-repeat: repeat-y;
+                    text-align: center;
                     }
                 section{
                     margin: 40px;
                     padding: 10px;
-                    background: navy;
-                }
+                    background:
+                    }   
                 .winners{
-                    background:salmon;
+                    
 
-                }
+                        }
                 .others{
-                    background: lightgreen;
+                    background:transparent;
                     color:black
                 }
-                #gold{
-                    background: gold;
+                #news{
+                    background-color:transparent;
+                    background-repeat: no-repeat;
+
 
                 }
-                #silver{
-                    background: silver;
-                    color:black
+                #updates{
+                    background-color:transparent;
+                    background-position: center;
+                    background-image: ;<govno>
+                    background-repeat: no-repeat;
+                    background-size: 75% 18 0%;
                 }
-                #bronze{
-                    background: brown;
-                    color:black
-
+                #Highscores{
+                    background-color:transparent;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 75% 18 0%;
+                    word-spacing: 500px;
+                }
+                div{
+                    margin-left: 300px;
                 }
                 nav{
                     position: fixed;
                     text-align:center;
                     top:0;
                     left:0;
-                    background: darkgrey;
+                    background: Black;
                     width:100%;
                 }
                 .nav li{
                     display: inline;
-                    background:rgb(0, 150, 7);
-                    margin-left: 3px;
-                    margin-right: 3px;
-                    padding: 10px;
+                    background-image: url(/Vindagomoza/New\ folder/Assets/IMG/111.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100% 90%;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    padding: 9px;
                     transition: 0.5s;
                 }
                 .nav li:hover{
-                    background:lightskyblue
+                    background-image: url(/Vindagomoza/New\ folder/Assets/IMG/111inverted.jpg)
                 }
                 .nav li:hover a{
                     color:rebeccapurple
                 }
                 .nav li a{
-
-                    color: rgb(255, 1, 1);
+                    color: #90c040;
                     text-decoration: none;
+                }
+                .footer {
+                    text-align: right
                 }
