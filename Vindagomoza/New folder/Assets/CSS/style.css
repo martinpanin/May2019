@@ -3,14 +3,14 @@
                     background-image: url(/Vindagomoza/New\ folder/Assets/IMG/MENU.jpg);
                     background-position: center;
                     background-repeat: repeat-y;
-                    background-size: 60%;
+                    background-size: 50%;
                     padding-top: 0px;
                     padding-right: 0px;
                     padding-bottom: 0px;
                     padding-left: 0px;                    
                 }
                 h1{
-                    color:#90c040;
+                    size: 50%;
                     text-align:center;
                     margin-top: 55px;
                 }
@@ -66,14 +66,33 @@
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: 75% 18 0%;
+                    font-size:20px;
                 }
-                #Highscores{
-                    background-color:transparent;
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: 75% 18 0%;
-                    word-spacing: 500px;
+                #updates p
+                {
+                font-size:40px; 
                 }
+                #Highscores b{
+                    text-align: left;
+                    word-spacing: 200px;
+                    font-size:30px;
+                    padding-right:20px;
+                }
+                #Highscores #test1{
+                text-align: left;
+                padding-left:500px;
+                }
+                #Highscores #test2{
+                word-spacing:252px;
+                text-align:left;
+                margin-left:500px;
+                }
+                #Highscores #test3{
+                padding-bottom:200px;п
+                text-align: left;
+                margin-left:1100px;
+                }
+                
                 div{
                     margin-left: 300px;
                 }
@@ -110,5 +129,5 @@
                     text-decoration: none;
                 }
                 .footer {
-                    text-align: right
+                    text-align: center
                 }
